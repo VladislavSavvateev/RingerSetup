@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/group_conf">
+        <item android:id="@+id/item_open"
+            android:title="@string/text_open_conf"/>
+        <item android:id="@+id/item_save"
+            android:title="@string/text_save_conf" />
+    </group>
+
+    <group android:id="@+id/group_other">
+        <item android:id="@+id/item_upload"
+            android:title="@string/text_upload"
+            android:icon="@drawable/ic_download_black_24dp"
+            app:showAsAction="ifRoom"/>
+
+        <item android:id="@+id/item_clear"
+            android:title="@string/text_clear_all"
+            android:icon="@drawable/ic_clear_black_24dp" />
+
+        <item android:id="@+id/item_manual_mode"
+            android:title="@string/title_manual_mode" />
+
+        <item android:id="@+id/item_set_time"
+            android:title="@string/text_set_time" />
+    </group>
+
+</menu>

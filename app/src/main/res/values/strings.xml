@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Ringer Setup</string>
+
+    <string name="text_please_wait">Пожалуйста, подождите&#8230;</string>
+    <string name="text_clear_all">Стереть всё&#8230;</string>
+    <string name="text_set_time">Установить время</string>
+    <string name="text_add">Добавить&#8230;</string>
+    <string name="text_upload">Загрузить в память Звонка&#8230;</string>
+    <string name="text_open_conf">Загрузить конфигурацию&#8230;</string>
+    <string name="text_save_conf">Сохранить конфигурацию&#8230;</string>
+    <string name="text_upload_was_successful">Загрузка параметров успешно завершена!</string>
+    <string name="text_time_was_changed">Время на Звонке было успешно выставлено!</string>
+    <string name="text_clearings_was_successful">Все параметры были успешно стёрты!</string>
+    <string name="text_error_was_occurred">Произошла ошибка при загрузке параметров в память Звонка</string>
+    <string name="text_there_is_no_confs">У вас нет сохранённых конфигураций</string>
+    <string name="text_loading_was_successful">Загрузка конфигурации успешно завершена!</string>
+    <string name="text_saving_was_successful">Сохранение конфигурации успешно завершена!</string>
+    <string name="text_loading_conf_error">Произошла ошибка при загрузке конфигурации</string>
+    <string name="text_saving_conf_error">Произошла ошибка при сохранении конфигурации</string>
+
+    <string name="desc_ring_image">Звонок</string>
+
+    <string name="dialog_socket_unavailable_title">Не удалось подключиться к Звонку.</string>
+    <string name="dialog_socket_unavailable_message">Обычно такая ошибка возникает, если Вы не подключены к сети Звонка (Ringer Setup Wi-Fi) и/или у Вас включён мобильный интернет. Обратите внимание, работа этого приложения с включённым мобильным интернетом невозможна!</string>
+    <string name="dialog_socket_unavailable_positive">Открыть настройки</string>
+    <string name="dialog_socket_unavailable_negative">Попробовать снова</string>
+
+    <string name="hint_conf_name">Название конфигурации</string>
+
+    <string name="dialog_delete_conf_title">Вы действительно хотите удалить конфигурацию?</string>
+    <string name="dialog_delete_conf_message">Это действие необратимо.</string>
+
+    <string name="dialog_copy_from_title">С какого дня скопировать звонки?</string>
+
+    <string name="dialog_type_conf_name">Введите название конфигурации</string>
+    <string name="dialog_type_conf_positive">Сохранить</string>
+
+    <string name="dialog_select_conf_title">Выберите конфигурацию из списка</string>
+
+    <string name="dialog_please_wait_title">Пожалуйста, подождите&#8230;</string>
+
+    <string name="dialog_change_ring_title">Выберите желаемое действие</string>
+    <string name="dialog_change_ring_message">Вы хотите изменить время звонка или удалить его?</string>
+    <string name="dialog_change_ring_positive">Изменить</string>
+    <string name="dialog_change_ring_negative">Удалить</string>
+
+    <string name="dialog_clear_all_rings_title">Вы действительно хотите удалить все звонки?</string>
+    <string name="dialog_clear_all_rings_message">Это действие необратимо.</string>
+
+    <string name="dialog_upload_warning_title">Отправить текущие параметры в память Звонка?</string>
+    <string name="dialog_upload_warning_message">Все имеющиеся в памяти Звонка параметры будут заменены.</string>
+
+    <string name="title_manual_mode">Ручной режим</string>
+    <string name="title_copy_from_another_weekday">Скопировать с другого дня недели&#8230;</string>
+</resources>
