@@ -27,6 +27,9 @@
 
     <string name="hint_conf_name">Название конфигурации</string>
 
+    <string name="dialog_delete_all_title">Вы действительно хотите удалить все звонки?</string>
+    <string name="dialog_delete_all_message">Это действие необратимо.</string>
+
     <string name="dialog_delete_conf_title">Вы действительно хотите удалить конфигурацию?</string>
     <string name="dialog_delete_conf_message">Это действие необратимо.</string>
 
@@ -52,4 +55,5 @@
 
     <string name="title_manual_mode">Ручной режим</string>
     <string name="title_copy_from_another_weekday">Скопировать с другого дня недели&#8230;</string>
+    <string name="title_delete_all">Удалить всё&#8230;</string>
 </resources>

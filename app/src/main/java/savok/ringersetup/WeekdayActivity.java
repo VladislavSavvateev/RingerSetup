@@ -101,6 +101,9 @@ public class WeekdayActivity extends AppCompatActivity {
             case R.id.item_copy_from:
                 showCopyFromDialog();
                 break;
+            case R.id.item_delete_all:
+                showDeleteAllDialog();
+                break;
         }
         return true;
     }
@@ -127,5 +130,18 @@ public class WeekdayActivity extends AppCompatActivity {
             }
         });
         ad.show();
+    }
+
+    private void showDeleteAllDialog() {
+        new AlertDialog.Builder(this)
+                .setTitle(R.string.dialog_delete_all_title)
+                .setMessage(R.string.dialog_delete_all_message)
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        ringAdapter.clear();
+                        ringAdapter.notifyDataSetChanged();
+                    }
+                }).setNegativeButton(android.R.string.no, null).create().show();
     }
 }

@@ -11,4 +11,9 @@
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_content_copy_black_24dp" />
 
+    <item android:id="@+id/item_delete_all"
+        android:title="@string/title_delete_all"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_clear_black_24dp" />
+
 </menu>
